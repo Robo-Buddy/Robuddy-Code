@@ -1,0 +1,8 @@
+prefix=/home/kristopher/vector_ws/install
+
+Name: jaco_sdk
+Description: Description of jaco_sdk
+Version: 0.0.25
+Cflags: -I/home/kristopher/vector_ws/install/include
+Libs: -L/home/kristopher/vector_ws/install/lib -lKinova.API.CommLayerUbuntu -lKinova.API.USBCommandLayerUbuntu
+Requires: 

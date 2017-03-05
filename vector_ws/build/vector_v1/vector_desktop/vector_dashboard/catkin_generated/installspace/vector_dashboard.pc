@@ -1,0 +1,8 @@
+prefix=/home/kristopher/vector_ws/install
+
+Name: vector_dashboard
+Description: Description of vector_dashboard
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/kristopher/vector_ws/install/lib 
+Requires: 

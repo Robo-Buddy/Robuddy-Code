@@ -1,0 +1,8 @@
+prefix=/home/kristopher/vector_ws/devel
+
+Name: range_sensor_filters
+Description: Description of range_sensor_filters
+Version: 1.0.0
+Cflags: -I/home/kristopher/vector_ws/src/vector_v1/vector_robot/vector_sensor_filters/range_sensor_filters/include
+Libs: -L/home/kristopher/vector_ws/devel/lib -lrange_sensor_filters
+Requires: roscpp tf filters laser_geometry pcl_ros geometry_msgs sensor_msgs message_filters
