@@ -10,22 +10,22 @@ General Workflow:
 PULL -> status -> add -> commit -> push
 
 Commands to know and love and use everyday:
-+git status
-+git pull
-+git add
-+git commit (-m)
-+git push
++ git status
++ git pull
++ git add
++ git commit (-m)
++ git push
 
 Useful additional commands:
-+git log
-+git clone
-+git diff
-+git branch
-+git checkout <branch-name>
++ git log
++ git clone
++ git diff
++ git branch
++ git checkout <branch-name>
 
 Other:
-+git init
-+git merge
++ git init
++ git merge
 
 More information:
 https://git-scm.com/docs/gittutorial
