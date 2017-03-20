@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: poli_description
+    relative_path: robots/poli.urdf.xacro
+  SRDF:
+    relative_path: config/vector.srdf
+  CONFIG:
+    generated_timestamp: 1480543825

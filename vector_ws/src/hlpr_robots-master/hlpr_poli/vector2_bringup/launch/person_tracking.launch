@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="kinect" default="true"/>
+    
+    <!-- If not kinect, use the astra. Start driver and recognition -->
+    <group unless="$(arg kinect)">
+        <!-- Launch the Astra OpenNi2 wrapper driver -->
+        <include file="$(find astra_launch)/launch/astra.launch" >
+            <arg name="publish_tf" value="false"/>
+            <arg name="depth_registration" value="false"/>
+        </include>
+
+        <!-- Launch cob person detection -->
+        <include file="$(find vector2_bringup)/launch/people_detection.launch" >
+            <arg name="using_nodelets" value="true"/>
+        </include>
+        </group>
+
+    <group if="$(arg kinect)">
+        <!-- Launch cob person detection -->
+        <include file="$(find vector2_bringup)/launch/people_detection.launch" >
+            <arg name="using_nodelets" value="false"/>
+        <arg name="camera_namespace" value="kinect"/>
+        <arg name="colorimage_in_topic" value="/kinect/qhd/image_color"/>
+        <arg name="pointcloud_rgb_in_topic" value="/kinect/qhd/points"/>
+        </include>
+    </group>
+
+</launch>

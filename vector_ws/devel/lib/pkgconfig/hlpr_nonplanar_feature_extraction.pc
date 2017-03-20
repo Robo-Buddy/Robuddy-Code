@@ -1,0 +1,8 @@
+prefix=/home/athomaz/vector_ws/devel
+
+Name: hlpr_nonplanar_feature_extraction
+Description: Description of hlpr_nonplanar_feature_extraction
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/athomaz/vector_ws/devel/lib 
+Requires: 

@@ -1,0 +1,6 @@
+set(vector_upstart_SETUP_PY_VERSION "1.0.0")
+set(vector_upstart_SETUP_PY_SCRIPTS "")
+set(vector_upstart_SETUP_PY_PACKAGES "vector_upstart")
+set(vector_upstart_SETUP_PY_PACKAGE_DIRS "src/vector_upstart")
+set(vector_upstart_SETUP_PY_MODULES "")
+set(vector_upstart_SETUP_PY_MODULE_DIRS "")

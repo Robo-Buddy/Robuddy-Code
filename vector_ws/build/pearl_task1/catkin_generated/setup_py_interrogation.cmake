@@ -1,0 +1,6 @@
+set(pearl_task1_SETUP_PY_VERSION "1.0.0")
+set(pearl_task1_SETUP_PY_SCRIPTS "")
+set(pearl_task1_SETUP_PY_PACKAGES "pearl_task1")
+set(pearl_task1_SETUP_PY_PACKAGE_DIRS "src/pearl_task1")
+set(pearl_task1_SETUP_PY_MODULES "")
+set(pearl_task1_SETUP_PY_MODULE_DIRS "")

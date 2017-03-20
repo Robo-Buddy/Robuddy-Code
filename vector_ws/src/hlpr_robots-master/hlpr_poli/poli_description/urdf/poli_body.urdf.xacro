@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="poli_body">
+
+    <xacro:macro name="poli_body" params="parent *origin">
+        
+        <joint name="poli_body_joint" type="fixed">
+            <xacro:insert_block name="origin" />
+            <parent link="${parent}" />
+            <child link="poli_body_link" />
+        </joint>
+        
+	<link name="poli_body_link">
+	    <visual>
+		<origin xyz="0 0 0" rpy="0 0 0"/>
+		  <geometry>
+		  	<mesh filename="package://poli_description/meshes/body_shell.STL" />
+		  </geometry>
+		  <material name="">
+		      <color rgba="0.75294 0.75294 0.75294 1" />
+		  </material>
+	    </visual>
+	    <collision>
+		    <geometry>
+			<mesh filename="package://poli_description/meshes/body_shell.STL" />
+		    </geometry>
+	    </collision>
+	    <inertial>
+		<!-- Completely made up -->
+                <mass value="5.098044" />
+                <origin xyz="0.0 0.0 0.5" rpy="0 0 0"/>
+                <inertia ixx="0.02"  ixy="0.0"  ixz="1.0" iyy="-0.03"  iyz="-0.02" izz="0.0" />
+	    </inertial>    
+	</link>
+
+    </xacro:macro>
+
+</robot>
