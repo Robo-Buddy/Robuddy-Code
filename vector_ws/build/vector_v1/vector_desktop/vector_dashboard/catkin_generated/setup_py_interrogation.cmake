@@ -1,6 +1,0 @@
-set(vector_dashboard_SETUP_PY_VERSION "0.0.1")
-set(vector_dashboard_SETUP_PY_SCRIPTS "")
-set(vector_dashboard_SETUP_PY_PACKAGES "vector_dashboard")
-set(vector_dashboard_SETUP_PY_PACKAGE_DIRS "src/vector_dashboard")
-set(vector_dashboard_SETUP_PY_MODULES "")
-set(vector_dashboard_SETUP_PY_MODULE_DIRS "")

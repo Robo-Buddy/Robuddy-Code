@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/install
-
-Name: vector_gazebo_plugins
-Description: Description of vector_gazebo_plugins
-Version: 0.0.1
-Cflags: -I/home/kristopher/vector_ws/install/include
-Libs: -L/home/kristopher/vector_ws/install/lib 
-Requires: roscpp std_msgs geometry_msgs nav_msgs tf message_runtime

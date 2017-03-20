@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/install
-
-Name: vector_remote_teleop
-Description: Description of vector_remote_teleop
-Version: 0.0.1
-Cflags: 
-Libs: -L/home/kristopher/vector_ws/install/lib 
-Requires: 

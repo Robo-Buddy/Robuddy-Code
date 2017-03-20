@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/install
-
-Name: vector_upstart
-Description: Description of vector_upstart
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/kristopher/vector_ws/install/lib 
-Requires: 

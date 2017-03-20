@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/install
-
-Name: ira_laser_tools
-Description: Description of ira_laser_tools
-Version: 1.0.0
-Cflags: -I/home/kristopher/vector_ws/install/include -I/usr/include/eigen3
-Libs: -L/home/kristopher/vector_ws/install/lib 
-Requires: 

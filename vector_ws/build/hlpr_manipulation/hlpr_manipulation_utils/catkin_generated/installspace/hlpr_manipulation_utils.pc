@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/install
-
-Name: hlpr_manipulation_utils
-Description: Description of hlpr_manipulation_utils
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/kristopher/vector_ws/install/lib 
-Requires: message_runtime
