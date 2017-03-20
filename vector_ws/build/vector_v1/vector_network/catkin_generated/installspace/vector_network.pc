@@ -1,0 +1,8 @@
+prefix=/home/kristopher/vector_ws/install
+
+Name: vector_network
+Description: Description of vector_network
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/kristopher/vector_ws/install/lib 
+Requires: 
