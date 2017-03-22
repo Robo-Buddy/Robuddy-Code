@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/install
-
-Name: hybrid_blqr_task1
-Description: Description of hybrid_blqr_task1
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/athomaz/vector_ws/install/lib 
-Requires: message_runtime

@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/devel
-
-Name: hlpr_single_plane_segmentation
-Description: Description of hlpr_single_plane_segmentation
-Version: 0.0.1
-Cflags: 
-Libs: -L/home/athomaz/vector_ws/devel/lib 
-Requires: 

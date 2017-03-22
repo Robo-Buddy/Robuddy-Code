@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/install
-
-Name: wpi_jaco_msgs
-Description: Description of wpi_jaco_msgs
-Version: 0.0.25
-Cflags: -I/home/athomaz/vector_ws/install/include
-Libs: -L/home/athomaz/vector_ws/install/lib 
-Requires: actionlib_msgs geometry_msgs

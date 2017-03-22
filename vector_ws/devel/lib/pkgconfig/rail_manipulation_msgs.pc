@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/devel
-
-Name: rail_manipulation_msgs
-Description: Description of rail_manipulation_msgs
-Version: 0.0.9
-Cflags: -I/home/athomaz/vector_ws/devel/include
-Libs: -L/home/athomaz/vector_ws/devel/lib 
-Requires: actionlib_msgs geometry_msgs sensor_msgs visualization_msgs

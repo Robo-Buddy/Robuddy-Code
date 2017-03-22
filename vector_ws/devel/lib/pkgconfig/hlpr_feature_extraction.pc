@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/devel
-
-Name: hlpr_feature_extraction
-Description: Description of hlpr_feature_extraction
-Version: 0.0.1
-Cflags: -I/home/athomaz/vector_ws/devel/include
-Libs: -L/home/athomaz/vector_ws/devel/lib 
-Requires: message_runtime roscpp std_msgs geometry_msgs hlpr_segmentation

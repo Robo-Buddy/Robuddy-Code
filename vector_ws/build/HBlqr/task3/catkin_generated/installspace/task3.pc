@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/install
-
-Name: task3
-Description: Description of task3
-Version: 1.0.0
-Cflags: -I/home/athomaz/vector_ws/install/include
-Libs: -L/home/athomaz/vector_ws/install/lib 
-Requires: message_runtime geometry_msgs std_msgs

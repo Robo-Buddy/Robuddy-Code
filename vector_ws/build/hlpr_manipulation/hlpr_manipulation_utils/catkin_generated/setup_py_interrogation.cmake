@@ -1,6 +1,0 @@
-set(hlpr_manipulation_utils_SETUP_PY_VERSION "1.0.0")
-set(hlpr_manipulation_utils_SETUP_PY_SCRIPTS "")
-set(hlpr_manipulation_utils_SETUP_PY_PACKAGES "hlpr_manipulation_utils")
-set(hlpr_manipulation_utils_SETUP_PY_PACKAGE_DIRS "src/hlpr_manipulation_utils")
-set(hlpr_manipulation_utils_SETUP_PY_MODULES "")
-set(hlpr_manipulation_utils_SETUP_PY_MODULE_DIRS "")

@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/devel
-
-Name: vector_remote_teleop
-Description: Description of vector_remote_teleop
-Version: 0.0.1
-Cflags: 
-Libs: -L/home/athomaz/vector_ws/devel/lib 
-Requires: 

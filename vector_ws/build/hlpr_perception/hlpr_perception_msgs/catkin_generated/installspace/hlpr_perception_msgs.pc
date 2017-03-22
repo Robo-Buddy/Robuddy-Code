@@ -1,8 +1,0 @@
-prefix=/home/athomaz/vector_ws/install
-
-Name: hlpr_perception_msgs
-Description: Description of hlpr_perception_msgs
-Version: 0.0.1
-Cflags: -I/home/athomaz/vector_ws/install/include
-Libs: -L/home/athomaz/vector_ws/install/lib 
-Requires: message_runtime std_msgs geometry_msgs sensor_msgs
