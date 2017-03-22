@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/devel
-
-Name: hlpr_gazebo
-Description: Description of hlpr_gazebo
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/kristopher/vector_ws/devel/lib 
-Requires: 

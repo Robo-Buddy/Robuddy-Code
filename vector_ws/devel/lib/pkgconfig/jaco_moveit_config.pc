@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/devel
-
-Name: jaco_moveit_config
-Description: Description of jaco_moveit_config
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/kristopher/vector_ws/devel/lib 
-Requires: 

@@ -1,2 +1,0 @@
-set(dynamixel_msgs_MESSAGE_FILES "/home/kristopher/vector_ws/src/vector_v1/vector_common/vector_third_party/dynamixel_motor/dynamixel_msgs/msg/JointState.msg;/home/kristopher/vector_ws/src/vector_v1/vector_common/vector_third_party/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg;/home/kristopher/vector_ws/src/vector_v1/vector_common/vector_third_party/dynamixel_motor/dynamixel_msgs/msg/MotorStateList.msg")
-set(dynamixel_msgs_SERVICE_FILES "")

@@ -1,8 +1,0 @@
-prefix=/home/kristopher/vector_ws/devel
-
-Name: hlpr_wpi_jaco_moveit_config_two_arms
-Description: Description of hlpr_wpi_jaco_moveit_config_two_arms
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/kristopher/vector_ws/devel/lib 
-Requires: 
