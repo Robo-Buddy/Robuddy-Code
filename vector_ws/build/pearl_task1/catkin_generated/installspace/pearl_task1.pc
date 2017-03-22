@@ -1,0 +1,8 @@
+prefix=/home/athomaz/vector_ws/install
+
+Name: pearl_task1
+Description: Description of pearl_task1
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/athomaz/vector_ws/install/lib 
+Requires: message_runtime

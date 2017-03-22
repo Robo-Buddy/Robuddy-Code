@@ -1,0 +1,28 @@
+<package>
+  <name>hlpr_perception</name>
+  <version>1.0.0</version>
+  <description>Metapackage for the ROS Packages for perception with HLP-R common platform (Stanley Vector)</description>
+
+  <author email="tesca.fitzgerald@gatech.edu">Tesca Fitzgerald</author>
+  <maintainer email="tesca.fitzgerald@gatech.edu">Tesca Fitzgerald</maintainer>
+  
+  <url type="website">https://github.com/HLP-R/hlpr_perception/wiki</url>
+  <url type="bugtracker">https://github.com/HLP-R/hlpr_perception/issues</url>
+  <url type="repository">https://github.com/HLP-R/hlpr_perception</url>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>hlpr_nonplanar_segmentation</run_depend>
+  <run_depend>hlpr_nonplanar_feature_extraction</run_depend>
+  <run_depend>hlpr_perception_msgs</run_depend>
+  <run_depend>hlpr_segmentation</run_depend>
+  <run_depend>hlpr_single_plane_segmentation</run_depend>
+  <run_depend>hlpr_feature_extraction</run_depend>
+  <run_depend>hlpr_object_labeling</run_depend>
+  <run_depend>hlpr_knowledge_retrieval</run_depend>  
+  
+  <export>
+    <metapackage />
+  </export>
+</package>

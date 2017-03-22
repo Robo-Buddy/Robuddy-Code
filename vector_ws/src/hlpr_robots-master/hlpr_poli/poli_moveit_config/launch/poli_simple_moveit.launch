@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<launch>
+    
+
+    <arg name="sim" default="true"/>
+    <arg name="use_wpi_jaco_exec" default="true"/>
+    <arg name="wpi_jaco_launch" default="false"/>
+    <arg name="use_octomap" default="false"/>
+    
+    <!-- Start IK service -->
+    <include file="$(find hlpr_trac_ik)/launch/start_ik_service.launch">
+        <arg name="base_chain" value="right_base_link"/>
+        <arg name="end_chain" value="right_ee_link"/>
+        <arg name="timeout_in_sec" value="5.0"/>
+        <arg name="distance_flag" value="false"/>
+    </include>
+
+
+    <!-- Start lookat services -->
+    <include file="$(find hlpr_lookat)/launch/lookat_eef.launch" >
+        <arg name="start_service" value="true"/>
+        <arg name="repeat_pan_tilt" value="1" />
+        <arg name="poli_urdf" value="true" />
+    </include>
+
+    <include file="$(find hlpr_lookat)/launch/waypoint_action_server.launch" />
+ 
+    <!-- Start the hlpr manipulation action server -->
+    <node name="hlpr_moveit_wrapper" pkg="hlpr_manipulation_actions" type="hlpr_moveit_wrapper" respawn="false" output="screen" />
+
+
+    <!-- Start the demonstration recording service -->
+    <include file="$(find hlpr_record_demonstration)/launch/start_record_services.launch" >
+        <arg name="eef_link" value="/right_ee_link"/>
+        <arg name="topic_loc" value="$(find dd_kinesthetic_teaching)/config/topics.yaml"/>
+    </include>
+  
+    <!-- Start moveit -->
+    <include file="$(find hlpr_wpi_jaco_moveit_config)/launch/hlpr_wpi_jaco_simple_moveit.launch">
+            <arg name="custom_sdf" value="$(find poli_moveit_config)/config/vector.srdf" />
+            <arg name="wpi_jaco_launch" value="$(arg wpi_jaco_launch)"/>
+            <arg name="use_wpi_jaco_exec" value="$(arg use_wpi_jaco_exec)"/>
+            <arg name="sim" value="$(arg sim)"/>
+            <arg name="use_octomap" value="$(arg use_octomap)"/>
+    </include>
+
+</launch>
+

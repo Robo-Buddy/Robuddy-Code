@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find poli_description)/launch/poli_upload.launch"/>
+    <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description -model robot 0 0 0 0 0 0" respawn="false" output="screen" />
+
+</launch>

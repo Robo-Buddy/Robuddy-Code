@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="simulation_urdf" default="false"/>
+    <param name="robot_description" command="$(find xacro)/xacro.py '$(find poli_description)/robots/poli.urdf.xacro' simulation_urdf:='$(arg simulation_urdf)'"/>
+</launch>
+

@@ -1,0 +1,8 @@
+prefix=/home/athomaz/vector_ws/install
+
+Name: hlpr_nonplanar_segmentation
+Description: Description of hlpr_nonplanar_segmentation
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/athomaz/vector_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/athomaz/vector_ws/devel
+
+Name: vector_config
+Description: Description of vector_config
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/athomaz/vector_ws/devel/lib 
+Requires: 

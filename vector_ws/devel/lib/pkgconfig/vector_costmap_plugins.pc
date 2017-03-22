@@ -1,0 +1,8 @@
+prefix=/home/athomaz/vector_ws/devel
+
+Name: vector_costmap_plugins
+Description: Description of vector_costmap_plugins
+Version: 0.0.1
+Cflags: -I/home/athomaz/vector_ws/src/vector_v1/vector_common/vector_navigation/vector_costmap_plugins/include -I/usr/include
+Libs: -L/home/athomaz/vector_ws/devel/lib -lvector_costmap
+Requires: costmap_2d dynamic_reconfigure geometry_msgs jsk_recognition_msgs roscpp tf
