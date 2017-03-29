@@ -14,4 +14,4 @@ Sample Tests
 ---
 The [Sample Tests](./Sample%20Tests) contains multiple variations on the goals.txt file, each of which test a subset of points from the main goals file. These are used for testing the success of our simulation before we move our code onto the robot itself.
 
-For each test case, there is a points file and a readme file sharing the same name. The points file is a listing of goal points to test, and the readme explains the purpose of the test and the results of multiple runs of the test along with our notes.
+For each test case, there is a points file and a README file sharing the same name. The points file is a listing of goal points to test, and the README explains the purpose of the test and the results of multiple runs of the test along with our notes.

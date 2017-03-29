@@ -1,4 +1,4 @@
-Test 1: Open hallway
+Test 1: Open Hallway
 ===
 
 This test is a basic test to make sure that the simulation behaves properly when navigation between two points with no barriers between them.
