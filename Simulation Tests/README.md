@@ -1,6 +1,5 @@
 This folder contains the 3D models of the Longhorn Maker Studios in the new EERC building, and some test cases for the gazebo simulation.
 
-
 LMS Models and Floor Plans
 ---
 The [LMS Models and Floor Plans](./LMS%20Models%20and%20Floor%20Plans) folder has a few of the model files and the floor plans. The floor plan used as a base for the gazebo simulation is the cropped version of the ground floor layout.
