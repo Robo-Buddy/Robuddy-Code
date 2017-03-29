@@ -8,7 +8,7 @@ The [LMS Models and Floor Plans](./LMS\ Models\ and\ Floor\ Plans) folder has a 
 
 Goals_README and robuddy_goals
 ===
-The [Goals_README.png](./Goals_README.png) file contains an edited image of this floor plan, where all of our established goal points are labeled based upon the order of the points in the [robuddy_goals.txt](./robuddy_goals.txt) file. This text file is the standard "goals.txt" in the simulation.
+The [Goals_README.png](../blob/master/Simulation%20Tests/Goals_README.png) file contains an edited image of this floor plan, where all of our established goal points are labeled based upon the order of the points in the [robuddy_goals.txt](./robuddy_goals.txt) file. This text file is the standard "goals.txt" in the simulation.
 
 
 Sample Tests
@@ -18,3 +18,4 @@ The [Sample Tests](./Sample\ Tests) contains multiple variations on the goals.tx
 For each test case, there is a points file and a readme file sharing the same name. The points file is a listing of goal points to test, and the readme explains the purpose of the test and the results of multiple runs of the test along with our notes.
 
 
+blob/master/Simulation%20Tests/Goals_README.png
