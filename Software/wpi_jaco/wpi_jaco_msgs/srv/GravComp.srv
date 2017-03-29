@@ -1,0 +1,3 @@
+bool enableGravComp   # true if you want to enable the gravity compensation
+---
+bool success       # true if successfully transitioned to desired gravity compensation state
