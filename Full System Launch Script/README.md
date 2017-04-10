@@ -18,4 +18,4 @@ If you already have completed the above steps, place the script in your HOME fol
 
 If you have any questions, contact:
 
-slwanna<at>utexas.edu
+slwanna@utexas.edu
