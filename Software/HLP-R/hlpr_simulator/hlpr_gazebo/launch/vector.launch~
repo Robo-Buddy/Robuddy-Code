@@ -3,7 +3,7 @@
     <arg name="limited" default="false"/>
     <arg name="paused" default="false"/>
     <arg name="gui" default="true"/>
-    <arg name="world" default="worlds/empty.world" />
+    <arg name="world" default="$(find hlpr_gazebo)/worlds/robuddy.world" />
     <arg name="room" default="$(find hlpr_gazebo)/launch/simple_room.launch" />
     <arg name="robot_description" default="$(find vector_description)/launch/vector_upload.launch"/>
     <!-- moveit and arm specific. See vector_controller.launch for details -->
@@ -12,7 +12,8 @@
     <arg name="moveit_launch_file" default="$(find hlpr_wpi_jaco_moveit_config)/launch/hlpr_wpi_jaco_simple_moveit.launch" />
     <arg name="wpi_jaco_launch" default="false" />
     <arg name="use_wpi_jaco_exec" default="false" /> 
-    <arg name="robot_spawn_loc" default="" />
+    <!-- <arg name="robot_spawn_loc" default="-x 27.75 -y -22 -z 0.00 -R 0 -P 0 -Y 0" /> -->
+    <arg name="robot_spawn_loc" default="-x 30.75 -y -13.25 -z 0.00 -R 0 -P 0 -Y 0" />
     <arg name="use_octomap" default="true" />
 
     <!-- startup simulated world -->
